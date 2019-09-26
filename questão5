@@ -1,0 +1,26 @@
+#include <stdio.h>
+
+  int main(){
+        int valor1,valor2,valor3;
+
+
+        printf("entrar valor1\n");
+        scanf("%d",&valor1);
+        printf("entrar valor2\n");
+        scanf("%d",&valor2);
+        printf("entrar valor3\n");
+        scanf("%d",&valor3);
+
+
+        if(valor1>valor2 && valor1>valor3){
+        printf("maior valor = ""%d",valor1);}
+        else
+        if(valor2>valor1&& valor2>valor3){
+        printf("maior valor = ""%d",valor2);}
+        if(valor3>valor1&valor3>valor2){
+        printf("maior valor = ""%d",valor3);
+        }else{printf("valores iguais");}
+
+
+  }
+
