@@ -1,0 +1,22 @@
+#include <stdio.h>
+
+
+int main(){
+
+    int saldo,debito,credito,saldoatual;
+
+    printf("entrar valor do saldo \n");
+    scanf("%i",&saldo);
+    printf("entrar valor do debito \n");
+    scanf("%i",&debito);
+    printf("entrar valor do credito \n");
+    scanf("%i",&credito);
+
+    saldoatual= saldo-debito+credito;
+    if(saldoatual>=0){
+        printf("saldo positivo");
+
+    }else{printf("saldo negativo");
+
+    }
+    }
