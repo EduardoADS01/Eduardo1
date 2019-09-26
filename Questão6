@@ -1,0 +1,25 @@
+#include <stdio.h>
+
+int main(){
+ int valor1,valor2,valor3,valor4;
+
+
+        printf("entrar valor1\n");
+        scanf("%d",&valor1);
+        printf("entrar valor2\n");
+        scanf("%d",&valor2);
+        printf("entrar valor3\n");
+        scanf("%d",&valor3);
+
+
+            if(valor1<valor2 && valor1<valor3){
+            valor4=valor2+valor3;}
+        else{
+            if(valor2<valor1&& valor2<valor3){
+            valor4=valor1+valor3;}
+
+        else{}
+        }
+
+        printf("%d",valor4);
+        }
