@@ -1,0 +1,14 @@
+#include <stdio.h>
+
+int main(){
+
+   float salarioinicial,vendas,salariofinal;
+
+   scanf("%f%f",&salarioinicial,&vendas);
+
+      if(vendas<=1500){salariofinal=vendas*0.03+salarioinicial;}
+      else{salariofinal=vendas*0.05+salarioinicial;};
+
+      printf("salario final=""%f",salariofinal);
+
+}
