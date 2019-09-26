@@ -1,0 +1,18 @@
+#include<stdio.h>
+
+
+int main(){
+    int valor1,valor2;
+    printf("entrar valor1\n");
+    scanf("%d",&valor1);
+    printf("entrar valor2\n");
+    scanf("%d",&valor2);
+
+    if(valor1>valor2){printf("primeiro valor e maior");}
+    else{if(valor1<valor2){printf("segundo valor e maior");}
+    else{printf("numeros iguais");}
+
+
+    }
+
+}
