@@ -1,0 +1,30 @@
+#include <stdio.h>
+
+  int main(){
+        int estoqueatual,estoqueminimo,estoquemaximo,quantidademedia;
+
+        printf("informe o estoque atual\n");
+        scanf("%d",&estoqueatual);
+        printf("informe o estoque maximo\n");
+        scanf("%d",&estoquemaximo);
+        printf("informe o estoque minimo\n");
+        scanf("%d",&estoqueminimo);
+
+        quantidademedia=(estoquemaximo+estoqueminimo)/2;
+        printf("quantidade media""%i\n",quantidademedia);
+
+
+
+        if(estoqueatual>=quantidademedia){
+           printf("nao efetuar a compra");
+
+
+        }else{
+        printf("efetuar a compra");}
+
+
+
+
+
+  }
+
