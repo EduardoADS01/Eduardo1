@@ -1,0 +1,20 @@
+#include<stdio.h>
+
+int main(){
+    int gol1,gol2;
+    char time1[20],time2[20];
+    printf("informar nome do time 1 e 2\n");
+    scanf("%s\n%s",&time1,&time2);
+    printf("informe o de numero de gols\n");
+    scanf("%d\n%d",&gol1,&gol2);
+
+    printf("%s%d\n%s%i\n",time1,gol1,time2,gol2);
+        if(gol1>gol2){printf("time 1 venceu");}
+        else{if(gol1<gol2){printf("time 2 venceu");}
+        else{printf("empate entre times 1 e 2");}
+
+
+
+        }
+
+}
