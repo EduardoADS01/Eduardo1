@@ -10,7 +10,7 @@ int main(){
     scanf("%s",&nome);
 
     letra = nome[0];
-    if(letra == 'A' || 'a'){
+    if(letra == 'A' || letra == 'a'){
 
     printf("%s",nome);
     }else{return 0;}
