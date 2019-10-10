@@ -1,0 +1,19 @@
+#include<stdio.h>
+
+// entre um nome,e so imprima a primeira letra for 'A'
+
+int main(){
+    char nome[50];
+    char letra;
+
+    printf("entrar nome\n");
+    scanf("%s",&nome);
+
+    letra = nome[0];
+    if(letra == 'A' || 'a'){
+
+    printf("%s",nome);
+    }else{return 0;}
+
+
+}
