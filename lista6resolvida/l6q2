@@ -1,0 +1,19 @@
+#include<stdio.h>
+
+//criar um programa calcular o tamanho de uma string sem usar strlen
+//obs: '\0' = enter
+
+int main(){
+    int x;
+    char nome[100];
+    gets(nome);
+    x=0;
+    while(nome[x] != '\0'){x++;}
+
+    printf("numero de caracteres%d",x);
+
+    return 0;
+
+
+}
+
