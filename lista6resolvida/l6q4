@@ -1,6 +1,6 @@
 include<stdio.h>
 
-// entre um nome,e so imprima a primeira letra for 'A'
+// entre um nome,e imprima as 4 primeiras letras
 
 int main(){
     char nome[50];
