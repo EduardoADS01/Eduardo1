@@ -1,0 +1,24 @@
+include<stdio.h>
+
+// entre um nome,e so imprima a primeira letra for 'A'
+
+int main(){
+    char nome[50];
+    char letra1;
+    char letra2;
+    char letra3;
+    char letra4;
+
+    gets(nome);
+
+    letra1 = nome[0];
+    letra2 = nome[1];
+    letra3 = nome[2];
+    letra4 = nome[3];
+
+    printf("%c%c%c%c",letra1,letra2,letra3,letra4);
+
+
+    return 0;
+
+}
